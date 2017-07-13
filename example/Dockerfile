@@ -1,4 +1,4 @@
-FROM jupyternotebookdockerfiles_iruby-notebook
+FROM odk211/iruby-notebook
 
 COPY Gemfile .
 RUN bundle install
