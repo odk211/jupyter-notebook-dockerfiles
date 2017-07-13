@@ -3,12 +3,12 @@ iruby-notebook:
   ports:
     - 8888:8888
   volumes:
-    - .:$HOME/work
+    - .:/home/jovyan/work
 
 example:
   build: example
   ports:
     - 8888:8888
   volumes:
-    - .:$HOME/work
+    - .:/home/jovyan/work
   
