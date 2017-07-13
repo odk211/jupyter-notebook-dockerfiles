@@ -1,0 +1,14 @@
+iruby-notebook:
+  build: iruby-notebook
+  ports:
+    - 8888:8888
+  volumes:
+    - .:$HOME/work
+
+example:
+  build: example
+  ports:
+    - 8888:8888
+  volumes:
+    - .:$HOME/work
+  
