@@ -40,7 +40,7 @@ RUN gem install bundler cztop iruby pry pry-doc awesome_print gnuplot rubyvis ny
     iruby register --force
 
 # install jupyter-vim-binding
-RUN mkdir -p $(jupyter --data-dir)/nbextensions && \
-    cd $(jupyter --data-dir)/nbextensions && \
-    git clone https://github.com/lambdalisue/jupyter-vim-binding vim_binding --depth 1 && \
-    jupyter nbextension enable vim_binding/vim_binding
+# RUN mkdir -p $(jupyter --data-dir)/nbextensions && \
+#     cd $(jupyter --data-dir)/nbextensions && \
+#     git clone https://github.com/lambdalisue/jupyter-vim-binding vim_binding --depth 1 && \
+#     jupyter nbextension enable vim_binding/vim_binding
